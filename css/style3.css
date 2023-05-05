@@ -1,0 +1,797 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #000;
+    color: #fafafa;
+    font-family: Po97;
+    margin-top: 55px;
+    padding-bottom: 55px;
+}
+
+header{
+    position: relative;
+    background: #333;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #777;
+    z-index: 2;
+    height: 35px;
+    position: fixed;
+    top: 0;
+    width: calc(100% - 60px);
+}
+
+.logo{
+    font-family: Po96;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+}
+
+.dateheure{
+    text-align: center;
+    font-family: Po49;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logo .div1{
+    display: inline;
+}
+
+.logo .div2{
+    display: inline;
+}
+
+.logo .div3{
+    display: inline;
+}
+
+.contain{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login{
+    z-index: 1;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 1px 0 2px rgba(255, 255, 255, 0.075), -1px 0 2px rgba(255, 255, 255, 0.075), 0 1px 2px rgba(255, 255, 255, 0.075), 0 -1px 2px rgba(255, 255, 255, 0.075);
+    margin: 85px 10px 10px 10px;
+    border: solid 2px purple;
+ }
+ 
+ .login label{
+     display: inline-block;
+     margin-top: 10px;
+ }
+
+ .login h1{
+     text-align: center;
+ }
+
+ .containlogin2{
+     width: 100%;
+     display: flex;
+     justify-content: center;
+ }
+
+.login2{
+    z-index: 1;
+    background: rgba(255, 255, 255, 0.0337);
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 1px 0 2px rgba(255, 255, 255, 0.075), -1px 0 2px rgba(255, 255, 255, 0.075), 0 1px 2px rgba(255, 255, 255, 0.075), 0 -1px 2px rgba(255, 255, 255, 0.075);
+    margin: 40px 10px 10px 10px;
+    border: solid 2px purple;
+    max-width: 520px;
+    min-width: 240px;
+ }
+ 
+ .login2 label{
+     display: inline-block;
+     margin-top: 10px;
+     background: royalblue;
+     display: block;
+     text-align: center;
+     padding: 5px;
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ .login2 h1{
+     text-align: center;
+ }
+ 
+ #ecrirejs2, #ecrirejs{
+    background: transparent;
+    background: rgba(255, 255, 255, 0.021);
+    width: calc(100% - 40px);
+    resize: none;
+    height: 44px;
+    font-size: 18px;
+    outline: 0;
+    caret-color: #fafafa;
+    color: linen;
+    padding: 10px 20px;
+    font-family: Po97;
+    border: solid 2px royalblue;
+    text-align: center;
+ }
+
+ #ecrirejs{
+    margin-bottom: 20px;
+ }
+ 
+ #ecrirejs2{
+    height: 132px;
+ }
+ 
+ .hr, .hr2{
+    border: none;
+    background:rgba(20, 185, 207);
+    height: 4px;
+    width: 45%;
+    border-radius: 2px;
+    margin: 10px auto 20px auto;
+}
+
+.hr2{
+    margin: 20px auto 20px auto;
+    background: chartreuse;
+}
+
+.form1 button{
+    background: rgba(20, 185, 207);
+    border: solid 1px seashell;
+    color: seashell;
+    font-family: Po328;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 0px 15px;
+    border-radius: 5px;
+    outline: 0;
+    width: 100%;
+    height: 30px;
+}
+
+.form1 button:focus{
+    background: seashell;
+    border: solid 1px rgba(20, 185, 207);
+    color: rgba(20, 185, 207);
+}
+
+.form1 input{
+    background: rgba(255, 255, 255, 0.507);
+    border-radius: 15px;
+    border: solid 1px  rgba(20, 185, 207, 0.377);
+    padding: 5px 20px;
+    width: calc(100% - 40px);
+    caret-color: linen;
+    color: linen;
+    outline: 0;
+    font-size: 18px;
+    font-family: Po328;
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+.form1 input:focus{
+    background: rgba(255, 255, 255, 0.247);
+    border: solid 1px  rgba(20, 185, 207, 0.253);
+}
+
+.form2 span{
+    font-size: 14px;
+    font-family: Po27;
+    display: block;
+    text-align: center;
+}
+
+.form2 a{
+    background: rgba(255, 255, 255, 0.137);
+    border: none;
+    display: block;
+    margin: 0 20px;
+    color: #fafafa;
+    padding: 5px 15px;
+    font-family: Po328;
+    font-weight: bold;
+    margin-top: 10px;
+    text-decoration: none;
+    outline: 0;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.form2 a:focus{
+    background: #fafafa;
+    color: rgba(0, 0, 0, 0.897);
+}
+
+.menu{
+    position: relative;
+    right: 25px;
+    padding: 10px;
+    margin-right: -20px;
+}
+
+.monmenu.active{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 290px;
+    width: 320px;
+    background: #020e1a;
+    z-index: 3;
+    transition: .2s ease-in;
+    min-height:100vh;
+}
+
+.monmenu{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: -2000px;
+    min-width: 290px;
+    width: 320px;
+    background: #020e1a;
+    backdrop-filter: blur(100px);
+    z-index: 3;
+    transition: 1s ease-out;
+    border-right: solid 2px rgba(255,255,255,.07);
+}
+
+.monmenu #logo2{
+    display: flex;
+    padding: 10px 30px;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.301);
+    height: 35px;
+    width: calc(100% - 60px);
+}
+
+.mnlogo .div1{
+    font-family: Po328;
+    font-weight: bold;
+}
+
+.containns{
+    margin: 10px 15px;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,.04);
+    backdrop-filter: blur(5px);
+}
+
+#ico1, #ico2, #ico3, #ico4{
+    display: inline-block;
+    color: royalblue;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px!important;
+    background-color: rgba(0, 0, 0, 0.171);
+    margin-right: 15px;
+    width: 30px;
+    height: 30px;
+}
+
+#ico1{
+    border: solid 10px rgba(0,0,0,.15);
+    background-color: transparent;
+    width: 100px;
+    margin: 20px 0;
+    display: inline-block;
+    height: 100px;
+}
+
+#ico4{
+    color: rgb(206, 92, 130);
+}
+
+#ico2{
+    color: rgb(85, 247, 220);
+}
+
+#ico3{
+    color: rgb(157, 91, 243);
+}
+
+.ecrire, .them, .deconnex{
+    padding: 2px 15px;
+    width: calc(100% - 30px);
+    text-decoration: none;
+    color: #fafafa;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.171);
+    font-family: Po96;
+}
+
+.compte{
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.171);
+}
+
+.compte .div{
+    width: 100%;
+    text-align: center;
+    font-size: 22px;
+    font-family: Po96;
+    margin-bottom: 20px;
+}
+
+.body{
+    display: flex;
+    width: calc(100% - 40px);
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.access{
+    display: inline-block;
+    width: calc(300px - 40px);
+    padding: 10px 20px;
+    margin: 20px 10px 0 0;
+    overflow-y: auto;
+    background: rgba(255, 255, 255, 0.075);
+    border-radius: 15px;
+}
+
+.access .titre{
+    line-height: 30px;
+    font-size: 26px;
+    text-align: center;
+    margin: 30px 0 20px;
+}
+
+.access .styleh3{
+    padding: 10px 20px;
+    background: rgba(255,255,255,.06);
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+
+.titlej a{
+    text-decoration: none;
+    color: linen;
+}
+
+.datpu{
+    display: inline-block;
+    margin-top: 10px;
+    color: #c0e763;
+    font-family: Po97;
+}
+
+.journaux{
+    width: calc(100% - 320px);
+    margin-left: 10px;
+    display: inline-block;
+    min-height: 300px;
+    max-height: calc(100vh - 125px);
+    overflow-y: auto;
+}
+
+.journaux .conteneur{
+    padding: 10px 20px;
+    background: rgba(255,250,200,.03);
+    border-radius: 15px;
+    margin-bottom: 10px;
+    backdrop-filter: blur(10px);
+    border: solid 1px royalblue;
+}
+
+.journaux .contenu{
+    padding: 10px 20px;
+    background: url("../images/1\ \(1\).jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    border-radius: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fafafaee;
+    border-radius: 0 0 15px 15px;
+}
+
+.titredate{
+    background: rgb(30, 68, 180);
+    padding: 10px 20px 5px;
+    border-radius: 15px 15px 0 0;
+    margin-bottom: 10px;
+}
+
+.titredate #titre{
+    text-align: center;
+    display: block;
+    font-family: Po328;
+    font-size: 19px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.titredate .datee{
+    text-align: center;
+    display: block;
+    font-family: Po97;
+    font-size: 14px;
+}
+
+.separer{
+    margin: 5px 0;
+    border: none;
+    height: 2px;
+    background: #000000;
+    border-radius: 20px;
+}
+
+.ouftils{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ouftils a{
+    text-decoration: none;
+    color: #fafafa;
+    margin: 10px 5px;
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.089);
+    padding: 10px;
+    border-radius: 15px;
+    width: 100px;
+}
+
+.pagination{
+    width: 100%;
+        display: flex;
+        justify-content: center;
+        bottom: 0;
+        position: fixed;
+        background: #1b1b1b;
+}
+
+.pagination a{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin: 10px 3px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.562);
+    background-color: rgba(255, 255, 255, 0.11);
+    font-family: Po328;
+    border: solid 1px rgba(255, 255, 255, 0.562);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination span{
+    display: flex;
+    margin: 10px 3px;
+    padding: 10px;
+    color: rgba(94, 241, 166, 0.438);
+    background-color:rgba(71, 218, 142, 0.041);
+    font-family: Po328;
+    border: solid 1px rgba(71, 218, 142, 0.295);
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#delete{
+    background: crimson;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#update{
+    background: rgb(6, 175, 29);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.choixthemes{
+    position: fixed;
+    bottom: -20000px;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #031323;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    transition: .5s ease-in;
+}
+
+.active2{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #031323;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 4;
+    transition: .3s ease-in;
+}
+
+#fermertheme{
+    font-size: 22px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    display: block;
+    padding: 10px;
+}
+
+.choixdutheme{
+    background-color: rgba(255,255,255,.03);
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.choixdutheme a{
+    display: block;
+    text-decoration: none;
+    color: #fafafa;
+    padding: 10px 20px;
+    margin-bottom: 2px;
+    width: calc(100% - 40px);
+    border-bottom: solid 1px #0002;
+}
+
+.infoscompte{
+    position: absolute;
+    top: -1000px;
+    left: 20px;
+    height: 230px;
+    width: calc(270px - 40px);
+    border-radius: 20px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background: #03132377;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 1px rgba(255,255,255,.05);
+    transition: .5s ease-out;
+}
+
+.active3{
+    position: fixed;
+    top: 60px;
+    left: 20px;
+    height: 230px;
+    width: calc(270px - 40px);
+    border-radius: 20px;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+    background: #03132377;
+    padding: 10px 20px;
+    box-shadow: 1px 1px 1px rgba(255,255,255,.05);
+    transition: .3s ease-in;
+}
+
+.infoscompte .div{
+    margin-top: 70px;
+}
+
+#ico1c, #ico2c{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.infoscompte .div a{
+    background: rgba(0,0,0,.1);
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: linen;
+    font-weight: 600;
+    display: block;
+}
+
+#error{
+    text-align: center;
+    width: 70%;
+    color: red;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px auto;
+}
+
+#sucess{
+    text-align: center;
+    width: 70%!important;
+    color: rgb(0, 255, 55);
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    margin: 10px auto;
+}
+
+.class{
+	line-height: 16px;
+	font-size: 16px;
+	margin: 10px 5px;
+	max-width: 350px;
+	font-family: Po97;
+	font-style: italic;
+}
+
+.contenu #ididid{
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fffffff5;
+    display: inline-block;
+    width: calc(100% - 40px);
+    background: none;
+    background: rgba(0, 0, 0, 0.993);
+    border-radius: 15px;
+}
+
+.yyyy{
+    margin-top: 40px;
+}
+
+.sssss{
+    margin-top: 70px;
+}
+
+@media screen and (max-width: 340px){
+	
+	.dateheure{
+		font-size: 12px;
+	}
+	
+	.logo{
+		font-size: 14px;
+	}
+	
+	header{
+		width: calc(100% - 20px)!important;
+		padding: 10px;
+	}
+}
+
+.nomprenom{
+    display: flex;
+    width: 100%;
+}
+
+.nomprenom .nom{
+    margin-right: 5px;
+}
+
+.nomprenom .prenom{
+    margin-left: 5px;
+}
+
+
+@media screen and (max-width : 470px){
+    
+
+.contain{
+    align-items: flex-start;
+    height: 90vh;
+    overflow-y: auto;
+}
+
+    .nomprenom{
+        display: block;
+    }
+
+    .nomprenom .nom{
+        margin-right: 0;
+    }
+
+    .nomprenom .prenom{
+        margin-left: 0;
+    }
+
+    header{
+        width: calc(100% - 60px);
+    }
+
+    .logo{
+        font-family: Po96;
+        text-transform: uppercase;
+        font-size: 18px;
+    }
+    
+    .dateheure{
+        text-align: center;
+        font-family: Po49;
+        font-size: 16px;
+    }
+    
+    .logo .div1{
+        display: inline;
+    }
+    
+    .logo .div2{
+        display: inline;
+    }
+    
+    .logo .div3{
+        display: block;
+    }
+}
+    
+.titredate h2{
+    text-align: center;
+    font-weight: bold;
+}
+
+#edzrsf{
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.divpseudo{
+    font-family: Po97;
+}
+
+@media screen and (max-width : 600px){
+	.monmenu.active{
+    display: inline-block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 290px;
+    width: 100%;
+    min-height: 100vh;
+    background: #031323;
+    backdrop-filter: blur(100px);
+    z-index: 3;
+    transition: .2s ease-in;
+}
+	
+    .body{
+    display: block;
+    overflow: hidden;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .access{
+        display: none;
+    }
+    
+    .journaux{
+    	width:100%;
+    	margin-left: 0;
+    }
+}

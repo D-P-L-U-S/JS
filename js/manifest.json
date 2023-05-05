@@ -1,0 +1,20 @@
+{
+	"name" : "Mon journal Secret",
+	"short_name" : "Mon JS™",
+	"version" : "1.2",
+	"app_version" : "1.2",
+	"description" : "Tu te sens seul ? Personne à qui parler ou simplement tu es introverti, viens écrire tout ce qui te passe par la tête dans ton journal Secret privé et Ultra moderne et sécurisé.",
+	"theme_color" : "#031323aa",
+	"background_color" : "#031323",
+	"orientation" : "portrait",
+	"icons" : [
+		{
+			"src" : "../images/app.png",
+			"type" : "image/png",
+			"sizes" : "480x480"
+		}
+	],
+	"start_url" : "../?s=pwa",
+	"scope": "../",
+	"display" : "standalone"
+}
